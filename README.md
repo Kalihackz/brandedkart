@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center"><img src="https://via.placeholder.com/1270x120/0d1117/fffff?text=Shopping+Cart+Assignment" /></h1>
 
-## Getting Started
+<p align="center"><strong>A small Next JS E-commerce web app which shows cart functionality.</strong></p>
 
-First, run the development server:
+<p align="center">
+  <img  alt="user" src="https://img.shields.io/badge/Developed by-brightgreen" />
+  <img  alt="user" src="https://img.shields.io/badge/Abir Ghosh-(Kalihackz)-brightgreen" />
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<p align="center">
+    <img src="https://img.shields.io/badge/made with-NextJS-blueviolet" alt="Next JS" />
+    <img src="https://img.shields.io/badge/uptime-97%25-brightgreen" alt="Uptime 97%" />
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ <br>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<p align="center"><strong>NOTE : As we are using free tier for mongodb more than 3 concurrent connection may result to 404</strong></p>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<br />
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<img src="https://via.placeholder.com/1270x120/0d1117/ffb300?text=Live+URL" />
 
-## Learn More
+<p align="center"><strong>https://brandedkart.vercel.app/ </strong></p>
 
-To learn more about Next.js, take a look at the following resources:
+<br />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img src="https://via.placeholder.com/1270x120/0d1117/77ff00?text=Problem+Statement" />
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<p>Create a "Shopping Cart" web interface App using ReactJS with a nicely formatted stylization (using CSS class and inline style).
+A shopping cart should have the following features :
+Should display the total number of items in the cart,
+Should display the total cumulative price of all the items inside the cart,
+There should be at least four different products there with some representative images,
+Every product image should have two buttons associated with it - [Add] and [Remove],
+Clicking Add or Remove button should adjust the total number of items and total price correctly,
+You may add any products to the cart any number of times,
+You can't remove a product if that product is not already present in the cart.</p>
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img src="https://via.placeholder.com/1270x120/0d1117/ff00c8?text=Technologies+Used" />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<ul>
+    <li>Language : HTML5 , CSS3 and Javascript</li>
+    <li>Framework : SASS , Next JS , Tailwind CSS</li>
+    <li>Database : MongoDB</li>
+</ul>
