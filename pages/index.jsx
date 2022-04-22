@@ -34,7 +34,7 @@ export default function Home( { data, addToCart, removeFromCart } ) {
 			</Head>
 			<div className='h-56 bg-slate-300 flex flex-col justify-center items-center'>
 				<div className='text-3xl md:text-6xl lg:text-6xl py-3'>Welcome to Branded Kart</div>
-				<div className='text-xl md:text-2xl lg:text-2xl'>A E-Commerce store by Abir Ghosh</div>
+				<div className='text-xl md:text-2xl lg:text-2xl'>An E-commerce store by Abir Ghosh</div>
 			</div>
 			<div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
 				{listElements}
