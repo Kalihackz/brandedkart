@@ -72,7 +72,7 @@ const Navbar = ( { cart, loading, totalQuantity, totalAmount, addToCart, removeF
 						loading ? <Spinner type={'Cart'} /> :
 						<>
 							<h2 className='font-bold text-xl text-center'>Total Items : {totalQuantity}</h2>
-							<h2 className='font-bold text-xl text-center'>Sub Total : {totalAmount}</h2>
+							<h2 className='font-bold text-xl text-center'>Sub Total : Rs. {totalAmount}</h2>
 							<ol className='list-decimal px-5'>
 								{cartElements}
 							</ol>

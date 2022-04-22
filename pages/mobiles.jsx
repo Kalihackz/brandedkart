@@ -7,7 +7,7 @@ export default function mobiles( { data, addToCart, removeFromCart } ) {
 		return (
 				<div key={item._id} className='border flex flex-col justify-center items-center shadow-lg mx-20 my-10'>
 					<img src={item.image} className='w-9/12' alt={item.title} />
-					<div title={item.title} className='text-center'>{item.title.length>30?`${item.title.substring(0, 30)}...`:item.title}</div>
+					<div title={item.title} className='text-center p-4'>{item.title.length>20?`${item.title.substring(0, 20)}...`:item.title}</div>
 					<div title={item.title} className='text-center'>Price : Rs. {item.price}</div>
 					<div className='flex justify-evenly my-5' style={{width: '226px'}}>
 						<button className='p-2 bg-pink-500 rounded w-24' onClick={addToCart( item._id, item.title, item.image, item.price )} >Add</button>
